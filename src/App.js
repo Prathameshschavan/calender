@@ -15,6 +15,7 @@ function App() {
       <Routes >
         <Route path='/enroll' element={<Enroll />}></Route>
         <Route path='/calender' element={<Calender />}></Route>
+        <Route path='/*' element={<Enroll />}></Route>
       </Routes>
       </div>
      
